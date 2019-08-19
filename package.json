@@ -1,0 +1,12 @@
+{
+  "name": "bhorewards",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bigherorewards/BHO-Rewards.git",
+  "author": "illusionelements <aaronlo207@gmail.com>",
+  "license": "MIT"
+}
