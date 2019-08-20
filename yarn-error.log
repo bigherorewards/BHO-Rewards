@@ -1,0 +1,38 @@
+Arguments: 
+  /home/elements/.nvm/versions/node/v12.4.0/bin/node /usr/share/yarn/bin/yarn.js add -D typescript
+
+PATH: 
+  /home/elements/.nvm/versions/node/v12.4.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Aaron/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Aaron/Downloads/ncat-portable-5.59BETA1/ncat-portable-5.59BETA1:/mnt/c/Users/Aaron/AppData/Local/Programs/Fiddler:/mnt/c/Program Files/Docker Toolbox:/mnt/c/Users/Aaron/AppData/Local/Microsoft/WindowsApps:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "bhorewards",
+    "private": false,
+    "devDependencies": {
+      "lerna": "^3.16.4"
+    },
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/bigherorewards/BHO-Rewards.git",
+    "author": "illusionelements <aaronlo207@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

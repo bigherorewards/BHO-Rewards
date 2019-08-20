@@ -1,12 +1,16 @@
 {
-  "name": "bhorewards",
-  "private": false,
-  "devDependencies": {
-    "lerna": "^3.16.4"
-  },
+  "name": "bhrewards",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/bigherorewards/BHO-Rewards.git",
   "author": "illusionelements <aaronlo207@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "@bhrewards/core",
+    "@bhrewards/truffle",
+    "@bhrewards/utils",
+    "@bhrewards/app",
+    "@bhrewards/test"
+  ]
 }
