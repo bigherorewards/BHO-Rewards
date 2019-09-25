@@ -6,11 +6,24 @@
   "author": "illusionelements <aaronlo207@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "@bhrewards/core",
-    "@bhrewards/truffle",
-    "@bhrewards/utils",
-    "@bhrewards/app",
-    "@bhrewards/test"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "native/react-native",
+      "native/react-native/**",
+      "native"
+    ]
+  },
+  "scripts": {
+    "core": "yarn workspace @bhrewards/core",
+    "utils": "yarn workspace @bhrewards/utils",
+    "native": "yarn workspace @bhrewards/native",
+    "test": "yarn workspace @bhrewards/test",
+    "truffleApp": "yarn workspace @bhrewards/truffle"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
 }

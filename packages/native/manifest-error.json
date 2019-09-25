@@ -1,0 +1,119 @@
+{
+  "workspaces": {
+    "@bhrewards/core": {
+      "loc": "/mnt/c/Users/Aaron/projects/BHO-Rewards/packages/core",
+      "manifest": {
+        "name": "@bhrewards/core",
+        "version": "0.0.0",
+        "description": "> TODO: description",
+        "author": {
+          "name": "illusionelements",
+          "email": "aaronlo207@gmail.com"
+        },
+        "homepage": "https://github.com/bigherorewards/BHO-Rewards#readme",
+        "license": "MIT",
+        "main": "lib/core.js",
+        "files": [
+          "lib"
+        ],
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/bigherorewards/BHO-Rewards.git"
+        },
+        "scripts": {
+          "test": "echo \"Error: run tests from root\" && exit 1"
+        },
+        "bugs": {
+          "url": "https://github.com/bigherorewards/BHO-Rewards/issues"
+        },
+        "dependencies": {
+          "web3": "^1.2.1"
+        },
+        "devDependencies": {
+          "@types/web3": "^1.0.19"
+        },
+        "_registry": "npm",
+        "_loc": "/mnt/c/Users/Aaron/projects/BHO-Rewards/packages/core/package.json",
+        "readmeFilename": "README.md",
+        "readme": "# `core`\n\n> TODO: description\n\n## Usage\n\n```\nconst core = require('core');\n\n// TODO: DEMONSTRATE API\n```\n"
+      }
+    },
+    "workspace-aggregator-a38cfc8e-41c4-4580-a5d7-46394e706471": {
+      "loc": "/mnt/c/Users/Aaron/projects/BHO-Rewards",
+      "manifest": {
+        "_uid": "",
+        "name": "workspace-aggregator-a38cfc8e-41c4-4580-a5d7-46394e706471",
+        "version": "1.0.0",
+        "_registry": "npm",
+        "_loc": "/mnt/c/Users/Aaron/projects/BHO-Rewards",
+        "dependencies": {
+          "@bhrewards/core": "0.0.0"
+        },
+        "devDependencies": {
+          "lerna": "^3.16.4"
+        },
+        "optionalDependencies": {},
+        "private": true,
+        "workspaces": [
+          "packages/*"
+        ]
+      }
+    },
+    "@bhrewards/app": {
+      "manifest": {
+        "name": "@bhrewards/app",
+        "scripts": {
+          "start": "expo start",
+          "android": "expo start --android",
+          "ios": "expo start --ios",
+          "web": "expo start --web",
+          "eject": "expo eject"
+        },
+        "dependencies": {
+          "expo": "^34.0.1",
+          "expokit": "34.0.2",
+          "react": "16.8.3",
+          "react-dom": "^16.8.6",
+          "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.1.tar.gz",
+          "react-native-unimodules": "0.5.2",
+          "react-native-web": "^0.11.4"
+        },
+        "devDependencies": {
+          "@types/react": "^16.8.23",
+          "@types/react-native": "^0.57.65",
+          "babel-preset-expo": "^6.0.0",
+          "typescript": "^3.4.5"
+        },
+        "version": ""
+      }
+    }
+  },
+  "projectManifestJson": {
+    "name": "@bhrewards/app",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^34.0.1",
+      "expokit": "34.0.2",
+      "react": "16.8.3",
+      "react-dom": "^16.8.6",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.1.tar.gz",
+      "react-native-unimodules": "0.5.2",
+      "react-native-web": "^0.11.4"
+    },
+    "devDependencies": {
+      "@types/react": "^16.8.23",
+      "@types/react-native": "^0.57.65",
+      "babel-preset-expo": "^6.0.0",
+      "typescript": "^3.4.5"
+    },
+    "version": ""
+  },
+  "loc": "/mnt/c/Users/Aaron/projects/BHO-Rewards/packages/app/package.json",
+  "@@RESULT": "{\n  workspaces: {\n    '@bhrewards/core': {\n      loc: '/mnt/c/Users/Aaron/projects/BHO-Rewards/packages/core',\n      manifest: [Object: null prototype] {\n        name: '@bhrewards/core',\n        version: '0.0.0',\n        description: '> TODO: description',\n        author: { name: 'illusionelements', email: 'aaronlo207@gmail.com' },\n        homepage: 'https://github.com/bigherorewards/BHO-Rewards#readme',\n        license: 'MIT',\n        main: 'lib/core.js',\n        files: [ 'lib', [length]: 1 ],\n        repository: [Object: null prototype] {\n          type: 'git',\n          url: 'git+https://github.com/bigherorewards/BHO-Rewards.git'\n        },\n        scripts: [Object: null prototype] {\n          test: 'echo \"Error: run tests from root\" && exit 1'\n        },\n        bugs: [Object: null prototype] {\n          url: 'https://github.com/bigherorewards/BHO-Rewards/issues'\n        },\n        dependencies: [Object: null prototype] { web3: '^1.2.1' },\n        devDependencies: [Object: null prototype] { '@types/web3': '^1.0.19' },\n        _registry: 'npm',\n        _loc: '/mnt/c/Users/Aaron/projects/BHO-Rewards/packages/core/package.json',\n        readmeFilename: 'README.md',\n        readme: '# `core`\\n\\n> TODO: description\\n\\n## Usage\\n\\n```\\nconst ' +\n          \"core = require('core');\\n\\n// TODO: DEMONSTRATE API\\n```\\n\"\n      }\n    },\n    'workspace-aggregator-a38cfc8e-41c4-4580-a5d7-46394e706471': {\n      loc: '/mnt/c/Users/Aaron/projects/BHO-Rewards',\n      manifest: {\n        _uid: '',\n        name: 'workspace-aggregator-a38cfc8e-41c4-4580-a5d7-46394e706471',\n        version: '1.0.0',\n        _registry: 'npm',\n        _loc: '/mnt/c/Users/Aaron/projects/BHO-Rewards',\n        dependencies: { '@bhrewards/core': '0.0.0' },\n        devDependencies: { lerna: '^3.16.4' },\n        optionalDependencies: {},\n        private: true,\n        workspaces: [ 'packages/*', [length]: 1 ]\n      }\n    },\n    '@bhrewards/app': {\n      manifest: [Object: null prototype] {\n        name: '@bhrewards/app',\n        scripts: [Object: null prototype] {\n          start: 'expo start',\n          android: 'expo start --android',\n          ios: 'expo start --ios',\n          web: 'expo start --web',\n          eject: 'expo eject'\n        },\n        dependencies: [Object: null prototype] {\n          expo: '^34.0.1',\n          expokit: '34.0.2',\n          react: '16.8.3',\n          'react-dom': '^16.8.6',\n          'react-native': 'https://github.com/expo/react-native/archive/sdk-34.0.1.tar.gz',\n          'react-native-unimodules': '0.5.2',\n          'react-native-web': '^0.11.4'\n        },\n        devDependencies: [Object: null prototype] {\n          '@types/react': '^16.8.23',\n          '@types/react-native': '^0.57.65',\n          'babel-preset-expo': '^6.0.0',\n          typescript: '^3.4.5'\n        },\n        version: ''\n      }\n    }\n  },\n  projectManifestJson: [Object: null prototype] {\n    name: '@bhrewards/app',\n    scripts: [Object: null prototype] {\n      start: 'expo start',\n      android: 'expo start --android',\n      ios: 'expo start --ios',\n      web: 'expo start --web',\n      eject: 'expo eject'\n    },\n    dependencies: [Object: null prototype] {\n      expo: '^34.0.1',\n      expokit: '34.0.2',\n      react: '16.8.3',\n      'react-dom': '^16.8.6',\n      'react-native': 'https://github.com/expo/react-native/archive/sdk-34.0.1.tar.gz',\n      'react-native-unimodules': '0.5.2',\n      'react-native-web': '^0.11.4'\n    },\n    devDependencies: [Object: null prototype] {\n      '@types/react': '^16.8.23',\n      '@types/react-native': '^0.57.65',\n      'babel-preset-expo': '^6.0.0',\n      typescript: '^3.4.5'\n    },\n    version: ''\n  },\n  loc: '/mnt/c/Users/Aaron/projects/BHO-Rewards/packages/app/package.json'\n}"
+}
