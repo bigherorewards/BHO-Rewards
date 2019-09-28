@@ -1,4 +1,4 @@
-pragma solidity^0.5.0;
+pragma solidity ^0.5.0;
 
 contract ERC777Token {
   function name() public view returns (string memory);
@@ -13,9 +13,9 @@ contract ERC777Token {
 
   //transfer is modified to send in ERC-777
 
-  function send(address to, uint256 amount) public;
+  function send(address to, uint256 amount) public returns (bool);
 
-  function send(address to, uint256 amount, bytes memory userData) public;
+  function send(address to, uint256 amount, bytes memory userData) public returns(bool);
 
   function authorizeOperator(address operator) public;
 

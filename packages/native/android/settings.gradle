@@ -2,7 +2,7 @@ include ':app'
 
 
 // Import gradle helpers for unimodules.
-apply from: '../../../node_modules/react-native-unimodules/gradle.groovy'
+apply from: './node_modules/react-native-unimodules/gradle.groovy'
 
 // Include unimodules.
 includeUnimodulesProjects(

@@ -108,7 +108,7 @@ apply from: 'expo.gradle'
 
 // WHEN_PREPARING_SHELL_REMOVE_TO_HERE
 
-apply from: "../../node_modules/react-native-unimodules/gradle.groovy"
+apply from: "./node_modules/react-native-unimodules/gradle.groovy"
 
 dependencies {
   implementation fileTree(dir: 'libs', include: ['*.jar'])

@@ -1,6 +1,7 @@
 {
   "name": "@bhrewards/native",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -8,14 +9,23 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "workspaces": {
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**"
+    ]
+  },
   "dependencies": {
+    "@bhrewards/contracts": "^0.0.1",
+    "@types/react-navigation": "^3.0.8",
     "expo": "^34.0.1",
     "expokit": "34.0.2",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.1.tar.gz",
     "react-native-unimodules": "0.5.2",
-    "react-native-web": "^0.11.4"
+    "react-native-web": "^0.11.4",
+    "react-navigation": "^4.0.10"
   },
   "devDependencies": {
     "@types/react": "^16.8.23",
